@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ThemeToggle from '../../components/ThemeToggle';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -91,6 +92,10 @@ const Navbar = () => {
                   <line x1="12" y1="15" x2="12" y2="3"/>
                 </svg>
               </a>
+            </li>
+            
+            <li className="navbar-theme">
+              <ThemeToggle />
             </li>
           </ul>
           
