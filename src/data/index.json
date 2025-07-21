@@ -46,6 +46,15 @@
     },
     {
       "id": "3",
+      "src": "./img/techwelt.png",
+      "title": "TechWelt",
+      "description": "TechWelt RD is my tech-focused YouTube channel where I share smart tutorials, quick fixes, and privacy hacks to simplify everyday digital life. From laptop care to app security, I create content that makes tech easier for everyone.",
+      "link": "Visit Channel",
+      "url": "https://www.youtube.com/@TechWeltRD",
+      "github": null
+    },
+    {
+      "id": "4",
       "src": "./img/tag-1.png",
       "title": "Upcoming...",
       "description": "",
