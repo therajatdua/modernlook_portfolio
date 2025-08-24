@@ -79,7 +79,7 @@ const Navbar = () => {
             
             <li className="navbar-cta">
               <a 
-                
+                href="https://drive.google.com/file/d/1fkv66G37fIEDIW81IM6vBR7igwYefsB3/view?usp=sharing" 
                 className="btn btn-primary"
                 download
                 target="_blank"
