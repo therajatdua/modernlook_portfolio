@@ -78,21 +78,20 @@ const Navbar = () => {
             ))}
             
             <li className="navbar-cta">
-              <a 
-                href="https://drive.google.com/file/d/1fkv66G37fIEDIW81IM6vBR7igwYefsB3/view?usp=sharing" 
-                className="btn btn-primary"
-                download
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                  <polyline points="7,10 12,15 17,10"/>
-                  <line x1="12" y1="15" x2="12" y2="3"/>
-                </svg>
-              </a>
-            </li>
+  <a
+    href="/resume.pdf"
+    className="btn btn-primary"
+    download="Rajat-Dua-Resume.pdf"
+    aria-label="Download Resume"
+  >
+    Resume
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="7,10 12,15 17,10"/>
+      <line x1="12" y1="15" x2="12" y2="3"/>
+    </svg>
+  </a>
+</li>
             
             <li className="navbar-theme">
               <ThemeToggle />
