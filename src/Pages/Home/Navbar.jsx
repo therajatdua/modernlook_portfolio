@@ -79,7 +79,7 @@ const Navbar = () => {
             
             <li className="navbar-cta">
   <a
-    href="/resume.pdf"
+    href="src/Pages/Home/resume.pdf"
     className="btn btn-primary"
     download="Rajat-Dua-Resume.pdf"
     aria-label="Download Resume"
