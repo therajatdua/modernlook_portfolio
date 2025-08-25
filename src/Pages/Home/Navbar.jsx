@@ -79,10 +79,11 @@ const Navbar = () => {
             
             <li className="navbar-cta">
   <a
-    href="src/Pages/Home/resume.pdf"
+    href={`${process.env.PUBLIC_URL}/resume.pdf`}
     className="btn btn-primary"
-    download="Rajat-Dua-Resume.pdf"
-    aria-label="Download Resume"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="View Resume"
   >
     Resume
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
